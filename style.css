@@ -1,0 +1,20 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    width: 500px;
+    height: 500px;
+    border: solid 1px;
+    margin: auto;
+}
+.fila {
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+    grid-template-rows: 1;
+}
+.comida {
+    background-color: black !important;
+}
+.viborita {
+    background-color: black;
+}
